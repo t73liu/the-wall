@@ -1,4 +1,8 @@
-# t73liu.github.io
+# Block Breaker game
+
+## Github Pages Link
+
+https://t73liu.github.io/block-breaker/
 
 ## Browser Requirements
 
