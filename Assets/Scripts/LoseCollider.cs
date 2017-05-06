@@ -13,6 +13,6 @@ public class LoseCollider : MonoBehaviour
     {
         print("trigger");
         levelManager = FindObjectOfType<LevelManager>();
-        levelManager.LoadLevel("Win_Screen");
+        levelManager.LoadLevel("Lose_Screen");
     }
 }
