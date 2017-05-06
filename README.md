@@ -2,6 +2,6 @@
 
 ## Browser Requirements
 
-Chrome 58+
-Microsoft Edge 38+
-Firefox 53+
+- Chrome 58+
+- Microsoft Edge 38+
+- Firefox 53+
