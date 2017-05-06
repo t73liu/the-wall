@@ -1,0 +1,8 @@
+# Rider-related
+.idea/
+*.csproj
+*.sln
+
+# Unity-related
+Library/
+obj/
