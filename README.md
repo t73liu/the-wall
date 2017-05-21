@@ -3,7 +3,7 @@
 ## Controls
 
 - Mouse to move the paddle
-- Left-Mouse-Button to launch the ball
+- Space to launch the ball
 
 ## Setup
 
@@ -11,7 +11,7 @@
 2. Create empty 2D Unity project.
 3. Copy the "Assets" and "ProjectSettings" folder to empty Unity project.
 
-## Browser Requirements
+## Tested Browsers
 
 - Chrome 58+
 - Firefox 53+
