@@ -6,7 +6,7 @@ public class MusicPlayer : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("awake music player " + GetInstanceID());
+        Debug.Log("Awake music player " + GetInstanceID());
         if (_instance == null)
         {
             _instance = this;
@@ -22,6 +22,6 @@ public class MusicPlayer : MonoBehaviour
     // Use this for initialization
     private void Start()
     {
-        Debug.Log("starting music player " + GetInstanceID());
+        Debug.Log("Starting music player " + GetInstanceID());
     }
 }
