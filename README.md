@@ -1,11 +1,20 @@
-# Block Breaker game
+# [Block Breaker game](https://t73liu.github.io/block-breaker/)
 
-## Github Pages Link
+## Controls
 
-https://t73liu.github.io/block-breaker/
+- Mouse to move the paddle
+- Space to launch the ball
 
-## Browser Requirements
+## Setup
+
+1. Clone the repository.
+2. Open index.html using Firefox
+
+## Tested Browsers
 
 - Chrome 58+
-- Microsoft Edge 38+
 - Firefox 53+
+
+## License
+
+This project is licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT).
