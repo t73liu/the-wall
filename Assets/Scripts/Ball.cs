@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class Ball : MonoBehaviour
 {
@@ -20,9 +21,9 @@ public class Ball : MonoBehaviour
         {
             transform.position = paddle.transform.position + ballPaddleDiff;
 
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                print("click");
+                print("Space Start");
                 hasStarted = true;
                 GetComponent<Rigidbody2D>().velocity = new Vector2(3f, 12f);
             }
@@ -31,7 +32,7 @@ public class Ball : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Vector2 random = new Vector2(Random.Range(0f,0.2f),Random.Range(0f,0.2f));
+        Vector2 random = new Vector2(Random.Range(0f, 0.2f), Random.Range(0f, 0.2f));
         if (hasStarted)
         {
             AudioSource.PlayClipAtPoint(GetComponent<AudioSource>().clip, transform.position);
