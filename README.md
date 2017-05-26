@@ -1,4 +1,4 @@
-# [Block Breaker game](https://t73liu.github.io/block-breaker/)
+# [The Wall](https://t73liu.github.io/the-wall/)
 
 ## Controls
 
