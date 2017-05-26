@@ -33,6 +33,6 @@ public class LevelManager : MonoBehaviour
 
     public void OpenSourceCode()
     {
-        Application.OpenURL("https://github.com/t73liu/block-breaker");
+        Application.OpenURL("https://github.com/t73liu/the-wall");
     }
 }
